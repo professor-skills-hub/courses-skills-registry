@@ -14,8 +14,8 @@ const INDEX_PATH = path.join(REPO_ROOT, 'index.json');
 
 // Match section lines like "⬜ 1. Title" (excludes legend "Status: ⬜ = not started")
 const SECTION_PATTERN = /⬜\s+\d+\./;
-const GITHUB_COURSES_BASE = 'https://github.com/professor-skills/registry/tree/main/courses';
-const GITHUB_SKILLS_BASE = 'https://github.com/professor-skills/registry/tree/main/skills';
+const GITHUB_COURSES_BASE = 'https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses';
+const GITHUB_SKILLS_BASE = 'https://github.com/professor-skills-hub/courses-skills-registry/tree/main/skills';
 
 function countSectionsInCourse(coursePath) {
   const content = fs.readFileSync(coursePath, 'utf8');
