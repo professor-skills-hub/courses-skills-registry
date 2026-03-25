@@ -1,75 +1,55 @@
 {
-  "version": "1.0",
-<<<<<<< HEAD
-  "updated": "2026-03-25T13:11:26Z",
-=======
-  "updated": "2026-03-25T13:14:49Z",
->>>>>>> main
-  "courses": [
-    {
-      "name": "git-workflow",
-      "title": "Git Workflow",
-      "description": "Master branching, merging, rebasing, and collaborative Git workflows",
-      "author": "tuankhuat",
-      "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/git-workflow",
-      "topics": [
-        "git",
-        "version-control",
-        "beginner"
-      ],
-      "level": "Beginner",
-      "sections": 5,
-      "created": "2026-03-25",
-      "updated": "2026-03-25"
-    },
-    {
-      "name": "python-basics",
-      "title": "Python Basics",
-      "description": "Learn Python fundamentals: variables, control flow, functions, and data structures",
-      "author": "tuankhuat",
-      "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/python-basics",
-      "topics": [
-        "python",
-        "programming",
-        "beginner"
-      ],
-      "level": "Beginner",
-      "sections": 6,
-      "created": "2026-03-15",
-      "updated": "2026-03-15"
-    },
-    {
-      "name": "react-hooks",
-      "title": "React Hooks",
-      "description": "Master useState, useEffect, useContext and custom hooks",
-      "author": "tuankhuat",
-      "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/react-hooks",
-      "topics": [
-        "react",
-        "javascript",
-        "frontend"
-      ],
-      "level": "Intermediate",
-      "sections": 8,
-      "created": "2026-03-15",
-      "updated": "2026-03-15"
-    },
-    {
-      "name": "sql-fundamentals",
-      "title": "SQL Fundamentals",
-      "description": "Learn relational databases: SELECT, JOIN, aggregation, subqueries, and schema design",
-      "author": "tuankhuat",
-      "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/sql-fundamentals",
-      "topics": [
-        "sql",
-        "databases",
-        "beginner"
-      ],
-      "level": "Beginner",
-      "sections": 7,
-      "created": "2026-03-25",
-      "updated": "2026-03-25"
-    }
-  ],
-  "skills": []
+    "version": "1.0",
+    "updated": "2026-03-25T13:14:49Z",
+    "courses": [
+        {
+            "name": "git-workflow",
+            "title": "Git Workflow",
+            "description": "Master branching, merging, rebasing, and collaborative Git workflows",
+            "author": "tuankhuat",
+            "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/git-workflow",
+            "topics": ["git", "version-control", "beginner"],
+            "level": "Beginner",
+            "sections": 5,
+            "created": "2026-03-25",
+            "updated": "2026-03-25"
+        },
+        {
+            "name": "python-basics",
+            "title": "Python Basics",
+            "description": "Learn Python fundamentals: variables, control flow, functions, and data structures",
+            "author": "tuankhuat",
+            "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/python-basics",
+            "topics": ["python", "programming", "beginner"],
+            "level": "Beginner",
+            "sections": 6,
+            "created": "2026-03-15",
+            "updated": "2026-03-15"
+        },
+        {
+            "name": "react-hooks",
+            "title": "React Hooks",
+            "description": "Master useState, useEffect, useContext and custom hooks",
+            "author": "tuankhuat",
+            "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/react-hooks",
+            "topics": ["react", "javascript", "frontend"],
+            "level": "Intermediate",
+            "sections": 8,
+            "created": "2026-03-15",
+            "updated": "2026-03-15"
+        },
+        {
+            "name": "sql-fundamentals",
+            "title": "SQL Fundamentals",
+            "description": "Learn relational databases: SELECT, JOIN, aggregation, subqueries, and schema design",
+            "author": "tuankhuat",
+            "github": "https://github.com/professor-skills-hub/courses-skills-registry/tree/main/courses/sql-fundamentals",
+            "topics": ["sql", "databases", "beginner"],
+            "level": "Beginner",
+            "sections": 7,
+            "created": "2026-03-25",
+            "updated": "2026-03-25"
+        }
+    ],
+    "skills": []
 }
