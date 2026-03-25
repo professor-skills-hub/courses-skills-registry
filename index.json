@@ -1,6 +1,10 @@
 {
   "version": "1.0",
+<<<<<<< HEAD
   "updated": "2026-03-25T13:11:26Z",
+=======
+  "updated": "2026-03-25T13:14:49Z",
+>>>>>>> main
   "courses": [
     {
       "name": "git-workflow",

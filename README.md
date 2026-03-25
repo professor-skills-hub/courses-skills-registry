@@ -1,14 +1,16 @@
 # professor-skills Registry
 
-Static GitHub-hosted registry of **courses** and **skills** for the [course-professor](https://github.com/professor-skills/course-professor) CLI. No server required — the CLI reads directly from GitHub raw URLs.
+Static GitHub-hosted registry of **courses** and **skills** for the [course-professor](https://github.com/professor-skills-hub/courses-skills-registry) CLI. No server required — the CLI reads directly from GitHub raw URLs.
 
-- **Courses** — Syllabus templates for learning a topic (community-contributed). Install a course to learn with professor.
-- **Skills** — Claude Code skills built by learners after completing a course (earned). See [CONTRIBUTING.md](CONTRIBUTING.md) for the two-track model.
+- **Courses** — Syllabus templates for learning a topic (community-contributed). Anyone can contribute.
+- **Skills** — Claude Code skills built by learners after completing a course and capstone (earned gate). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Installing a course
 
 ```bash
-npx course-professor install <course-name>
+npx course-professor courses                  # browse all courses
+npx course-professor search <keyword>         # search by keyword
+npx course-professor install <course-name>    # install to learning/{name}/ in your repo
 ```
 
 Example:
@@ -17,15 +19,23 @@ Example:
 npx course-professor install react-hooks
 ```
 
-The CLI fetches `index.json` from this repo to discover courses, then downloads `COURSE.md` and `meta.json` into your local professor plugin. Run `professor:new-topic` to start learning.
+Downloads `COURSE.md` and `meta.json` to `learning/react-hooks/` in your current repo. Then run `professor:new-topic` in Claude Code — Professor detects the course automatically.
+
+## Installing a skill
+
+```bash
+npx course-professor install --skill <name>           # prompts local or global scope
+npx course-professor install --skill <name> --local   # .claude/skills/ (this project)
+npx course-professor install --skill <name> --global  # ~/.claude/skills/ (all projects)
+```
 
 ## Browsing
 
-See [index.json](index.json) for the full list: `courses[]` (name, title, description, level, section count) and `skills[]`. Courses live under [courses/](courses/), skills under [skills/](skills/).
+See [index.json](index.json) for the full list. Courses live under [courses/](courses/), skills under [skills/](skills/).
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute a **course** (open) or publish a **skill** (earned).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute a **course** (open to all) or publish a **skill** (earned after completing a course + capstone).
 
 ## Local development
 

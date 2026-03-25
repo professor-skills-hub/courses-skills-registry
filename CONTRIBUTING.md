@@ -39,22 +39,24 @@ https://raw.githubusercontent.com/professor-skills-hub/courses-skills-registry/m
 
 A **skill** is a Claude Code skill built by a learner **after** completing a course and a capstone. It solves a real problem (e.g. a "react-hooks-reviewer" skill after the "react-hooks" course). **Earned gate** — only learners who completed a course + capstone can publish.
 
-### What you need (when publishing is enabled)
+### What you need
 
-1. **Earn the right** — Complete a course and its capstone (mechanism TBD).
+1. **Earn the right** — Complete a course and its capstone using the Professor plugin. When `professor:capstone-review` passes, Professor writes a `COMPLETION.md` to your `learning/{slug}/` directory recording the course, date, and capstone summary. You'll need this as evidence.
+
 2. **Create** a directory under `skills/` with a slug name (e.g. `skills/react-hooks-reviewer/`).
+
 3. **Add** these two files:
 
-   - **meta.json** — Required: `name`, `title`, `description`, `author`, `origin_course` (the course you completed). Optional: `topics`, `version`, `created`, `updated`, `license`.  
+   - **meta.json** — Required: `name`, `title`, `description`, `author`, `origin_course` (must match the course you completed). Optional: `topics`, `version`, `created`, `updated`, `license`.
      `name` must match the folder name.
 
    - **SKILL.md** — Standard Claude Code skill format:
      - Must start with a **frontmatter** block (`---` ... `---`) containing at least:
        - `name` — skill identifier (should match folder/meta).
        - `description` — when the skill should trigger.
-     - Followed by the skill content (problem-solving, not teaching).
+     - Followed by the skill content (a problem-solving tool, not a teaching guide).
 
-4. **Open a PR** (or submit via earned flow). Validation will check meta.json and SKILL.md frontmatter.
+4. **Open a PR.** Include a link to your `COMPLETION.md` (or paste its contents) in the PR description. A bot will post a reviewer checklist automatically. Validation CI checks that `origin_course` matches a real course in `courses/`.
 
 ### Raw URLs for skills
 
