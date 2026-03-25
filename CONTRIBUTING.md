@@ -10,7 +10,7 @@ A **course** is a syllabus template for learning a topic. Professor uses it to g
 
 ### What you need
 
-1. **Fork** [professor-skills/registry](https://github.com/professor-skills/registry).
+1. **Fork** [professor-skills-hub/courses-skills-registry](https://github.com/professor-skills-hub/courses-skills-registry).
 2. **Create** a directory under `courses/` with a slug name (e.g. `courses/my-topic/`).
 3. **Add** these two files (no SKILL.md in courses):
 
@@ -30,7 +30,7 @@ A **course** is a syllabus template for learning a topic. Professor uses it to g
 ### Raw URLs for courses
 
 ```
-https://raw.githubusercontent.com/professor-skills/registry/main/courses/<name>/<file>
+https://raw.githubusercontent.com/professor-skills-hub/courses-skills-registry/main/courses/<name>/<file>
 ```
 
 ---
@@ -59,7 +59,7 @@ A **skill** is a Claude Code skill built by a learner **after** completing a cou
 ### Raw URLs for skills
 
 ```
-https://raw.githubusercontent.com/professor-skills/registry/main/skills/<name>/<file>
+https://raw.githubusercontent.com/professor-skills-hub/courses-skills-registry/main/skills/<name>/<file>
 ```
 
 ---
