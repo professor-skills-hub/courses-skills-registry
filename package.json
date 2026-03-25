@@ -1,0 +1,13 @@
+{
+  "name": "professor-skills-registry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static GitHub-hosted registry of community SKILLs for course-professor CLI",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build-index": "node scripts/build-index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

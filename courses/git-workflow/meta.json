@@ -1,0 +1,12 @@
+{
+  "name": "git-workflow",
+  "title": "Git Workflow",
+  "description": "Master branching, merging, rebasing, and collaborative Git workflows",
+  "author": "tuankhuat",
+  "topics": ["git", "version-control", "beginner"],
+  "level": "Beginner",
+  "version": "1.0.0",
+  "created": "2026-03-25",
+  "updated": "2026-03-25",
+  "license": "MIT"
+}

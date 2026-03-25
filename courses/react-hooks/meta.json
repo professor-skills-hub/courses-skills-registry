@@ -1,0 +1,12 @@
+{
+  "name": "react-hooks",
+  "title": "React Hooks",
+  "description": "Master useState, useEffect, useContext and custom hooks",
+  "author": "tuankhuat",
+  "topics": ["react", "javascript", "frontend"],
+  "level": "Intermediate",
+  "version": "1.0.0",
+  "created": "2026-03-15",
+  "updated": "2026-03-15",
+  "license": "MIT"
+}

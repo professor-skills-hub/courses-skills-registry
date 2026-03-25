@@ -1,0 +1,12 @@
+{
+  "name": "python-basics",
+  "title": "Python Basics",
+  "description": "Learn Python fundamentals: variables, control flow, functions, and data structures",
+  "author": "tuankhuat",
+  "topics": ["python", "programming", "beginner"],
+  "level": "Beginner",
+  "version": "1.0.0",
+  "created": "2026-03-15",
+  "updated": "2026-03-15",
+  "license": "MIT"
+}
